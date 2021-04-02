@@ -245,7 +245,7 @@ void handleRDBitem( const double & simTime, const unsigned int & simFrame, RDB_O
         memcpy( &mNearestObject, &item, sizeof( RDB_OBJECT_STATE_t ) );
     
   fprintf( stderr, "handleRDBitem: handling object state\n" );
-  fprintf( stderr, "    simTime = %.3lf, simFrame = %ld\n", simTime, simFrame );
+  fprintf( stderr, "    simTime = %.3lf, simFrame = %u\n", simTime, simFrame );
   fprintf( stderr, "    object = %s, id = %d\n", item.base.name, item.base.id );
   fprintf( stderr, "    position = %.3lf / %.3lf / %.3lf\n", item.base.pos.x, item.base.pos.y, item.base.pos.z );
 
