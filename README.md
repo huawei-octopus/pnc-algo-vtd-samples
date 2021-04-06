@@ -1,4 +1,4 @@
-# pnc-algo-samples-vtd
+# PnC Algorithm Samples with VTD Adapter
 Simple PnC algorithm samples for octopus simulation service users to get started with vtd adapter.
 
 ## How to use it
